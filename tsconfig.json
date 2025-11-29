@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "app/components/FeaturedCollection.jsx", "app/components/FilterBar.jsx", "app/components/Hero.jsx", "app/components/Navbar.jsx", "app/components/ProductCard.jsx", "app/components/ProductDetail.jsx", "app/components/ThemeToggle.jsx", "app/data/products.js", "app/product/[id]/page.jsx", "app/shop/page.jsx"  ],
   "exclude": ["node_modules"]
 }
