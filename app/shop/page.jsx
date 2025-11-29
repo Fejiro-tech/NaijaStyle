@@ -8,7 +8,7 @@ import { useSearchParams } from "next/navigation";
 
 export default function ShopPage() {
   const searchParams = useSearchParams();
-  const urlCategory = searchParams.get("category");
+  const urlCategory = searchParams.category || "";
 
   const [selected, setSelected] = useState("all");
   const [searchText, setSearchText] = useState("");
