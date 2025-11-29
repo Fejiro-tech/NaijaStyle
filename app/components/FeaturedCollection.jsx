@@ -11,7 +11,7 @@ const featuredCategories = [
 
 const FeaturedCollection = () => {
   return (
-    <div className='px-20 py-14'>
+    <div className='px-10 py-14'>
       <h2 className="text-2xl font-semibold mb-10 text-center text-yellow-400">
         Featured Collection
       </h2>

@@ -13,9 +13,9 @@ const Hero = () => {
         priority
       />
 
-      <div className="absolute inset-0 bg-black/40 flex items-center px-10 sm:px-20 text-sm sm:text-base text-white leading-relaxed ">
+      <div className="absolute inset-0 bg-black/40 flex items-center px-6 sm:px-20 text-sm sm:text-base text-white leading-relaxed ">
         <div>
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-2">
+          <h1 className="text-3xl md:text-7xl font-bold text-white mb-2">
             Step Into Elegance, Naija Style
           </h1>
 

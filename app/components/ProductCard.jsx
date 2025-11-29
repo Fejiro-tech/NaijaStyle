@@ -5,7 +5,7 @@ const ProductCard = ({ product }) => {
   return (
     <div>
       <Link href={`/product/${product.id}`} className="py-4 block">
-        <div className="relative w-full h-[800px] sm:h-[600px] shadow-lg rounded-xl overflow-hidden">
+        <div className="relative w-full aspect-3/5 shadow-lg rounded-xl overflow-hidden">
           <Image
             fill
             src={product.image}

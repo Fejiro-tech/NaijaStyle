@@ -25,7 +25,7 @@ function ShopContent() {
     .filter((p) => p.name.toLowerCase().includes(searchText.toLowerCase()));
 
   return (
-    <div className="px-10 sm:px-20 py-24">
+    <div className="px-6 sm:px-20 py-24">
       <h2 className="text-2xl font-semibold mb-6">
         {selected === "all" ? "All Products" : `Showing: ${selected}'s Collections`}
       </h2>

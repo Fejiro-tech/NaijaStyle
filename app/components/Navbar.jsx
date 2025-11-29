@@ -16,13 +16,13 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <nav className={`w-full flex items-center justify-between px-10 sm:px-20 py-4 top-0 left-0 z-50  text-white ${homePage ? "absolute bg-transparent text-white" : "fixed bg-yellow-600 shadow-md text-white"}`}>
+    <nav className={`w-full flex items-center justify-between px-6 sm:px-20 py-4 top-0 left-0 z-50  text-white ${homePage ? "absolute bg-transparent text-white" : "fixed bg-yellow-600 shadow-md text-white"}`}>
       <h1 className="text-lg sm:text-xl md:text-2xl font-bold">Naija <span className={`${homePage ?"text-yellow-500" : "text-white"}`}>Style</span> Co</h1>
 
       <div className=" items-center gap-4 sm:gap-6 text-base sm:text-xl font-bold hidden md:flex">
         <Link href="/" className={`${homePage ? "hover:text-yellow-400" : "hover:text-yellow-200"}`}>Home</Link>
         <Link href="/shop" className={`${homePage ? "hover:text-yellow-400" : "hover:text-yellow-200"}`}>Shop</Link>
-        <Link href="/about" className={`${homePage ? "hover:text-yellow-400" : "hover:text-yellow-200"}`}>About</Link>
+        <Link href="/about" className={`${homePage ? "hover:text-yellow-400" : "hover:text-yellow-200"}`}>About Us</Link>
 
         <button onClick={()=> setIsCartOpen(!isCartOpen)} className="hover:text-yellow-200">Cart</button>
 
@@ -56,6 +56,7 @@ export default function Navbar() {
           <div className="absolute top-0 right-0 bg-yellow-600  w-[200px] min-h-screen flex flex-col items-center py-20 space-y-14 font-bold text-[20px]">
             <Link href="/" onClick={() => setIsMenuOpen(false)} className={`${homePage ? "hover:text-yellow-400" : "hover:text-yellow-200"}`}>Home</Link>
             <Link href="/shop" onClick={() => setIsMenuOpen(false)} className={`${homePage ? "hover:text-yellow-400" : "hover:text-yellow-200"}`}>Shop</Link>
+            <Link href="/about" onClick={() => setIsMenuOpen(false)} className={`${homePage ? "hover:text-yellow-400" : "hover:text-yellow-200"}`}>About Us</Link>
             
             <button onClick={()=> {setIsCartOpen(!isCartOpen) && setIsMenuOpen(false)}} className="hover:text-yellow-200">Cart</button>
 
