@@ -18,7 +18,7 @@ const ProductCard = ({ product }) => {
       <div className="mt-2 text-sm sm:text-base">
         <h3 className="font-semibold text-yellow-600">{product.name}</h3>
 
-        <div className="flex flex-col sm:flex-row sm:justify-between sm:mt-4">
+        <div className="flex flex-col sm:flex-row sm:justify-between">
           <p className="text-gray-400 mt-2">₦{product.price}</p>
 
           <Link

@@ -2,11 +2,11 @@
 
 import { products } from "../data/products";
 import ProductCard from "../components/ProductCard";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import FilterBar from "../components/FilterBar";
 import { useSearchParams } from "next/navigation";
 
-export default function ShopPage() {
+function ShopContent() {
   const searchParams = useSearchParams();
   const urlCategory = searchParams.get("category") || ""; 
 
@@ -48,5 +48,17 @@ export default function ShopPage() {
         ))}
       </div>
     </div>
+  );
+}
+
+export default function ShopPage() {
+  return (
+    <Suspense fallback={
+      <div className="px-10 sm:px-20 py-24">
+        <div className="text-center text-gray-500">Loading products...</div>
+      </div>
+    }>
+      <ShopContent />
+    </Suspense>
   );
 }
