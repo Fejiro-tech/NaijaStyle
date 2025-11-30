@@ -60,8 +60,8 @@ export default function Navbar() {
             <Link href="/shop" onClick={() => setIsMenuOpen(false)} className={`${homePage ? "hover:text-yellow-400" : "hover:text-yellow-200"}`}>Shop</Link>
             <Link href="/about" onClick={() => setIsMenuOpen(false)} className={`${homePage ? "hover:text-yellow-400" : "hover:text-yellow-200"}`}>About Us</Link>
             
-            <button onClick={()=> {setIsCartOpen(!isCartOpen)}} className="hover:text-yellow-200">
-              <Image src="/images/icon-cart.svg" width={24} height={24} alt="cart-icon"/>
+            <button onClick={()=> {setIsCartOpen(!isCartOpen)}} className="hover:text-yellow-200 cursor-pointer">
+              <Image src="/images/icon-cart.svg" width={26} height={26} alt="cart-icon"/>
             </button>
 
             {isCartOpen && (
