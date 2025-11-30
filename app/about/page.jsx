@@ -21,7 +21,7 @@ export default function About() {
       </section>
 
       <section className="max-w-5xl mx-auto px-6 sm:px-20 py-16">
-        <h2 className="text-3xl font-bold text-yellow-600 mb-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-yellow-600 mb-4">
           Redefining Nigerian Fashion
         </h2>
 
