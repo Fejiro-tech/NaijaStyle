@@ -43,9 +43,9 @@ export default function ProductDetail({ id }) {
       </div>
 
       <div>
-        <h1 className="text-3xl font-bold text-yellow-500">{product.name}</h1>
+        <h1 className="text-2xl font-bold text-yellow-500">{product.name}</h1>
         <p className="text-gray-600 mt-2">{formattedPrice(product.price)}</p>
-        <p className="mt-4 text-gray-500">{product.description}</p>
+        <p className="mt-4 text-gray-500 text-sm sm:text-base">{product.description}</p>
 
         <div className="mt-6">
           <h3 className="font-semibold mb-2">Available Sizes:</h3>
