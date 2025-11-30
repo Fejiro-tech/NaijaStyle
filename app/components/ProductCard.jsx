@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { formattedPrice } from "./ProductDetail";
 
 const ProductCard = ({ product }) => {
   return (
@@ -19,7 +20,7 @@ const ProductCard = ({ product }) => {
         <h3 className="font-semibold text-yellow-600">{product.name}</h3>
 
         <div className="flex justify-between">
-          <p className="text-gray-400 mt-2">₦{product.price}</p>
+          <p className="text-gray-400 mt-2">{formattedPrice(product.price)}</p>
 
           <Link
             href={`/product/${product.id}`}

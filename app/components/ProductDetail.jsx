@@ -6,6 +6,14 @@ import { useCart } from "../../app/context/CartContext"
 import { useState } from "react";
 import toast from "react-hot-toast";
 
+export const formattedPrice = (price) =>
+  new Intl.NumberFormat("en-NG", {
+    style: "currency",
+    currency: "NGN",
+    minimumFractionDigits: 2,
+}).format(price);
+
+
 export default function ProductDetail({ id }) {
 
   const {addToCart }= useCart();
@@ -18,7 +26,8 @@ export default function ProductDetail({ id }) {
   if (!product) {
     return <div className="p-10 text-red-500 text-xl">Product not found.</div>;
   }
-
+  
+  
   return (
    <div className=" px-10 py-20">
 
@@ -35,7 +44,7 @@ export default function ProductDetail({ id }) {
 
       <div>
         <h1 className="text-3xl font-bold text-yellow-500">{product.name}</h1>
-        <p className="text-gray-600 mt-2">₦{product.price.toLocaleString()}</p>
+        <p className="text-gray-600 mt-2">{formattedPrice(product.price)}</p>
         <p className="mt-4 text-gray-500">{product.description}</p>
 
         <div className="mt-6">
@@ -78,5 +87,5 @@ export default function ProductDetail({ id }) {
   
 </div>
 
-  );
+);
 }

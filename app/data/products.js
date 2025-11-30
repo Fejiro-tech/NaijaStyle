@@ -53,462 +53,491 @@ import image50 from "../../public/images/image50.jpg";
 export const products = [
   {
     id: "1",
-    name: "Asoke 3 piece set",
+    name: "Classic Aso Oke 3-Piece Set",
     price: 50000,
     image: image1,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "Premium handwoven Aso Oke set featuring rich textures and elegant finishing, perfect for weddings and special occasions.",
     sizes: ["S", "M", "L"],
     category: "asoke"
   },
 
   {
     id: "2",
-    name: "Stylish Asoke 3 piece set",
-    price: 40,
+    name: "Elegant Aso Oke 3-Piece Ensemble",
+    price: 55000,
     image: image2,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A beautifully styled Aso Oke outfit with modern detailing, ideal for traditional ceremonies and cultural events.",
     sizes: ["S", "M", "L"],
     category: "asoke"
   },
 
   {
     id: "3",
-    name: "Asoke gown",
-    price: 500,
+    name: "Royal Aso Oke Gown",
+    price: 50000,
     image: image3,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A graceful Aso Oke gown crafted with timeless Yoruba artistry, designed for comfort and class.",
     sizes: ["S", "M", "L"],
     category: "asoke"
   },
 
   {
     id: "4",
-    name: "2 piece set",
-    price: 3000,
+    name: "Aso Oke 2-Piece Set",
+    price: 45000,
     image: image4,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A stylish 2-piece outfit combining tradition and modern tailoring for a perfect cultural look.",
     sizes: ["S", "M", "L"],
     category: "asoke"
   },
+
   {
     id: "5",
-    name: "Iro and Buba",
-    price: 25,
+    name: "Classic Iro & Buba",
+    price: 60000,
     image: image5,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A traditional Iro and Buba set featuring soft fabric and elegant patterns suitable for all African events.",
     sizes: ["S", "M", "L"],
     category: "asoke"
   },
+
   {
     id: "6",
-    name: "Iro and Buba",
-    price: 45,
+    name: "Modern Iro & Buba",
+    price: 35000,
     image: image6,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A contemporary twist on the Iro and Buba, designed for women who love cultural fashion with modern styling.",
     sizes: ["S", "M", "L"],
     category: "asoke"
   },
+
   {
     id: "7",
-    name: "Iro and Buba",
-    price: 80,
+    name: "Luxury Iro & Buba Set",
+    price: 30000,
     image: image7,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "High-quality Iro and Buba made with premium materials, ideal for parties, engagements, and special occasions.",
     sizes: ["S", "M", "L"],
     category: "asoke"
   },
+
   {
     id: "8",
-    name: "Agbada",
-    price: 300,
+    name: "Traditional Agbada Set",
+    price: 65000,
     image: image8,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A bold and stylish Agbada crafted with rich embroidery, perfect for men who love premium traditional wear.",
     sizes: ["S", "M", "L"],
     category: "men"
   },
 
   {
     id: "9",
-    name: "Stylish Agbada",
-    price: 100,
+    name: "Designer Agbada",
+    price: 70000,
     image: image9,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A sleek agbada with modern embroidery, combining regal presence with contemporary fashion.",
     sizes: ["S", "M", "L"],
     category: "men"
   },
-    {
+
+  {
     id: "10",
-    name: "Luxury Agbada",
-    price: 220,
+    name: "Luxury Premium Agbada",
+    price: 200000,
     image: image10,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "High-end Agbada tailored with exquisite craftsmanship for weddings, events, and cultural ceremonies.",
     sizes: ["S", "M", "L"],
     category: "men"
   },
 
   {
     id: "11",
-    name: "Agbada set",
-    price: 45,
+    name: "Agbada & Inner Set",
+    price: 95000,
     image: image11,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A complete Agbada set with matching inner wear, delivering elegance and a perfect cultural fit.",
     sizes: ["S", "M", "L"],
     category: "men"
   },
 
   {
     id: "12",
-    name: "Senator Agbada",
-    price: 45,
+    name: "Senator Agbada Fusion",
+    price: 60000,
     image: image12,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A unique combination of Senator fabric and Agbada style, ideal for modern traditional men.",
     sizes: ["S", "M", "L"],
     category: "men"
   },
+
   {
     id: "13",
-    name: "Blue Agbada",
-    price: 45,
+    name: "Blue Embroidered Agbada",
+    price: 100000,
     image: image13,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "Royal blue Agbada featuring signature embroidery for a standout, majestic appearance.",
     sizes: ["S", "M", "L"],
     category: "men"
   },
+
   {
     id: "14",
-    name: "Luxury 2 piece set",
-    price: 45,
+    name: "Premium 2-Piece Set",
+    price: 120000,
     image: image14,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A luxury 2-piece tailored with fine stitching for a polished and sophisticated look.",
     sizes: ["S", "M", "L"],
     category: "men"
   },
+
   {
     id: "15",
-    name: "Edo Attire",
-    price: 150,
+    name: "Traditional Edo Attire",
+    price: 250000,
     image: image15,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "Authentic Edo royal outfit featuring detailed coral-inspired accessories for cultural celebrations.",
     sizes: ["S", "M", "L"],
     category: "men"
   },
+
   {
     id: "16",
-    name: "Luxury Edo Native Attire",
-    price: 200,
+    name: "Luxury Edo Royal Set",
+    price: 450000,
     image: image16,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A premium Edo traditional attire crafted for weddings, coronations, and high-class events.",
     sizes: ["S", "M", "L"],
     category: "men"
   },
 
-    {
+  {
     id: "17",
-    name: "Luxury Yoruba Native Attire",
-    price: 1500,
+    name: "Regal Yoruba Agbada Set",
+    price: 250000,
     image: image17,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A luxurious Yoruba Agbada ensemble designed weddings and high-class events.",
     sizes: ["S", "M", "L"],
     category: "men"
   },
 
-    {
+  {
     id: "18",
-    name: "Ankar dress",
-    price: 5000,
+    name: "Ankara Dress",
+    price: 30000,
     image: image18,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A vibrant Ankara dress with soft fabric and flattering silhouette perfect for casual and formal outings.",
     sizes: ["S", "M", "L"],
     category: "dress"
   },
 
   {
     id: "19",
-    name: "Stylish Ankara dress",
-    price: 45,
+    name: "Stylish Ankara Gown",
+    price: 35000,
     image: image19,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A modern Ankara gown featuring bold prints and feminine structure for everyday glam.",
     sizes: ["S", "M", "L"],
     category: "dress"
   },
 
   {
     id: "20",
-    name: "Stylish Nude Lace Dress",
-    price: 45,
+    name: "Nude Lace Dress",
+    price: 65000,
     image: image20,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "An elegant lace dress designed with soft nude tones and eye-catching detailing.",
     sizes: ["S", "M", "L"],
     category: "dress"
   },
+
   {
     id: "21",
-    name: "Corset dress",
-    price: 45,
+    name: "Corset Lace Dress",
+    price: 50000,
     image: image21,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A stylish corset dress combining lace patterns with modern fitted tailoring.",
     sizes: ["S", "M", "L"],
     category: "dress"
   },
+
   {
     id: "22",
-    name: "Luxury Beaded Dress",
-    price: 45,
+    name: "Luxury Beaded Lace Dress",
+    price: 110000,
     image: image22,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "Hand-beaded lace dress offering an elegant and classy appearance for special events.",
     sizes: ["S", "M", "L"],
     category: "dress"
   },
+
   {
     id: "23",
-    name: "Luxury corset dress",
-    price: 300,
+    name: "Premium Corset Gown",
+    price: 110000,
     image: image23,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A high-quality corset dress with stylish finishing, perfect for parties and formal outings.",
     sizes: ["S", "M", "L"],
     category: "dress"
   },
+
   {
     id: "24",
-    name: "Stylish Corset Dress",
-    price: 500,
+    name: "Designer Corset Dress",
+    price: 200000,
     image: image24,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A luxurious corset gown created with fine lace and premium embellishments.",
     sizes: ["S", "M", "L"],
     category: "dress"
   },
+
   {
     id: "25",
-    name: "Corset Dress",
-    price: 500,
+    name: "Elegant Corset Lace Dress",
+    price: 90000,
     image: image25,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A beautifully fitted lace dress with corset detailing, offering feminine elegance.",
     sizes: ["S", "M", "L"],
     category: "dress"
   },
 
   {
     id: "26",
-    name: "Black Agbada set",
-    price: 500,
+    name: "Black Prestige Agbada",
+    price: 105000,
     image: image27,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A sleek black Agbada set designed for men who appreciate luxury and style.",
     sizes: ["S", "M", "L"],
     category: "men"
   },
 
   {
     id: "27",
-    name: "Black Shoe",
-    price: 500,
+    name: "Men's Classic Black Shoes",
+    price: 90000,
     image: image28,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "Elegant formal shoes crafted for comfort and durability, suitable for both work and events.",
     sizes: ["S", "M", "L"],
     category: "shoes"
   },
+
   {
     id: "28",
-    name: "Gucci Shoe",
-    price: 500,
+    name: "Designer Gucci-Inspired Shoe",
+    price: 250000,
     image: image29,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A stylish designer shoe with luxury detailing for premium fashion lovers.",
     sizes: ["S", "M", "L"],
     category: "shoes"
   },
 
   {
     id: "29",
-    name: "Fendi Shoes",
-    price: 500,
+    name: "Fendi-Inspired Footwear",
+    price: 400000,
     image: image30,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "Trendy designer footwear combining style, comfort, and class.",
     sizes: ["S", "M", "L"],
     category: "shoes"
   },
 
-   {
+  {
     id: "30",
-    name: "Half Shoes",
-    price: 45,
+    name: "Half-Cover Leather Shoes",
+    price: 60000,
     image: image31,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "Comfortable half-cover shoes made with premium leather for long-lasting wear.",
     sizes: ["S", "M", "L"],
     category: "shoes"
   },
+
   {
     id: "31",
-    name: "Half Shoes",
-    price: 45,
+    name: "Classic Half Shoes",
+    price: 60000,
     image: image32,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A modern half-shoe design best suited for casual and semi-formal occasions.",
     sizes: ["S", "M", "L"],
     category: "shoes"
   },
+
   {
     id: "32",
-    name: "Luxury Shoes",
-    price: 45,
+    name: "Luxury Leather Shoes",
+    price: 125000,
     image: image33,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "High-quality leather shoes offering comfort, elegance, and lasting durability.",
     sizes: ["S", "M", "L"],
     category: "shoes"
   },
+
   {
     id: "33",
-    name: "Half Shoes",
-    price: 300,
+    name: "Premium Half Shoes",
+    price: 100000,
     image: image34,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "Elegant half shoes with a polished finish suitable for men with refined taste.",
     sizes: ["S", "M", "L"],
     category: "shoes"
   },
+
   {
     id: "34",
-    name: "LV Slippers",
-    price: 500,
+    name: "LV Designer Slippers",
+    price: 120000,
     image: image35,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "Luxury LV-style slippers designed for comfort and high fashion enthusiasts.",
     sizes: ["S", "M", "L"],
     category: "shoes"
   },
+
   {
     id: "35",
-    name: "LV Belt",
-    price: 500,
+    name: "LV Signature Belt",
+    price: 60000,
     image: image36,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A designer LV belt with premium buckle and quality leather finishing.",
     sizes: ["S", "M", "L"],
     category: "accessories"
   },
 
   {
     id: "36",
-    name: "Valentino Belt",
-    price: 500,
+    name: "Valentino Leather Belt",
+    price: 70000,
     image: image37,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "Luxurious Valentino-inspired belt designed for both corporate and casual outfits.",
     sizes: ["S", "M", "L"],
     category: "accessories"
   },
 
   {
     id: "37",
-    name: "Fendi Belt",
-    price: 500,
+    name: "Fendi Signature Belt",
+    price: 110000,
     image: image38,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A premium Fendi-inspired belt crafted with durable leather and bold styling.",
     sizes: ["S", "M", "L"],
     category: "accessories"
   },
+
   {
     id: "38",
-    name: "Black Heels",
-    price: 500,
+    name: "Black Elegant Heels",
+    price: 50000,
     image: image39,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "Beautiful high heels designed for comfort and an elevated feminine look.",
     sizes: ["S", "M", "L"],
     category: "shoes"
   },
 
   {
     id: "39",
-    name: "Black Heels",
-    price: 500,
+    name: "Classic Black Women’s Heels",
+    price: 45000,
     image: image40,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "Stylish and versatile heels suitable for both office and evening outings.",
     sizes: ["S", "M", "L"],
     category: "shoes"
   },
+
   {
     id: "40",
-    name: "Wine Heels",
-    price: 500,
+    name: "Wine Elegant Heels",
+    price: 35000,
     image: image41,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A classy pair of wine-colored heels with a sleek design for confident ladies.",
     sizes: ["S", "M", "L"],
     category: "shoes"
   },
+
   {
     id: "41",
-    name: "Lemon Heels",
-    price: 500,
+    name: "Lemon Yellow Heels",
+    price: 500000,
     image: image42,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "Bright and stylish heels perfect for fashion-forward women.",
     sizes: ["S", "M", "L"],
     category: "shoes"
   },
+
   {
     id: "42",
-    name: "Royal Beads",
-    price: 500,
+    name: "Royal Coral Beads",
+    price: 220000,
     image: image43,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "Traditional coral beads crafted for weddings, engagements, and cultural occasions.",
     sizes: ["S", "M", "L"],
-    category: "shoes"
+    category: "accessories"
   },
+
   {
     id: "43",
-    name: "Edo Beads",
-    price: 500,
+    name: "Authentic Edo Beads",
+    price: 300000,
     image: image44,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "Handcrafted Edo beads representing heritage, culture, and royalty.",
     sizes: ["S", "M", "L"],
     category: "accessories"
   },
+
   {
     id: "44",
-    name: "Blue Beaded Set",
-    price: 500,
+    name: "Blue Beaded Jewelry Set",
+    price: 45000,
     image: image45,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "A stunning blue bead set perfect for coordinating outfits and traditional events.",
     sizes: ["S", "M", "L"],
     category: "accessories"
   },
+
   {
     id: "45",
-    name: "Pink Auto-gele",
-    price: 500,
+    name: "Pink Auto-Gele",
+    price: 20000,
     image: image46,
-    description: "Lightweight floral dress perfect for summer.",
-    sizes: ["S", "M", "L"],
-    category: "accessories"
-  },
-  {
-    id: "46",
-    name: "Zara Cap",
-    price: 500,
-    image: image47,
-    description: "Lightweight floral dress perfect for summer.",
-    sizes: ["S", "M", "L"],
-    category: "gele"
-  },
-  {
-    id: "47",
-    name: "Wine Auto-gele",
-    price: 500,
-    image: image48,
-    description: "Lightweight floral dress perfect for summer.",
-    sizes: ["S", "M", "L"],
-    category: "gele"
-  },
-  {
-    id: "48",
-    name: "Auto gele",
-    price: 500,
-    image: image49,
-    description: "Lightweight floral dress perfect for summer.",
-    sizes: ["S", "M", "L"],
-    category: "gele"
-  },
-  {
-    id: "49",
-    name: "Orange Auto-gele",
-    price: 500,
-    image: image50,
-    description: "Lightweight floral dress perfect for summer.",
+    description: "Ready-to-wear auto-gele crafted with structure and beauty for effortless elegance.",
     sizes: ["S", "M", "L"],
     category: "gele"
   },
 
-  
+  {
+    id: "46",
+    name: "Zara Handmade Cap",
+    price: 15000,
+    image: image47,
+    description: "A premium Zara-style cap suitable for cultural ceremonies and traditional outfits.",
+    sizes: ["S", "M", "L"],
+    category: "gele"
+  },
+
+  {
+    id: "47",
+    name: "Wine Auto-Gele",
+    price: 250000,
+    image: image48,
+    description: "A rich wine-colored auto-gele designed to fit securely and beautifully.",
+    sizes: ["S", "M", "L"],
+    category: "gele"
+  },
+
+  {
+    id: "48",
+    name: "Classic Auto-Gele",
+    price: 30000,
+    image: image49,
+    description: "Easy-to-wear auto-gele made for quick styling without sacrificing elegance.",
+    sizes: ["S", "M", "L"],
+    category: "gele"
+  },
+
+  {
+    id: "49",
+    name: "Orange Auto-Gele",
+    price: 18000,
+    image: image50,
+    description: "Vibrant orange auto-gele ideal for weddings, owambes, and traditional events.",
+    sizes: ["S", "M", "L"],
+    category: "gele"
+  },
 ];
