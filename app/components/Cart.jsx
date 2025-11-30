@@ -22,7 +22,7 @@ const Cart = () => {
   // Empty cart state
   if (cart.length === 0) {
     return (
-      <div className="absolute right-0 top-[90px] bg-white text-black w-[360px] rounded-lg shadow-2xl p-6 z-50">
+      <div className="absolute right-0 top-[90px] bg-white text-black w-[260px] rounded-lg shadow-2xl p-6 z-50">
         <h3 className="text-lg font-bold uppercase mb-4">Cart (0)</h3>
         <div className="flex flex-col items-center justify-center py-8">
           <p className="text-gray-500 text-sm">Your cart is empty</p>

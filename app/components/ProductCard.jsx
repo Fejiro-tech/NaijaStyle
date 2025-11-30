@@ -18,12 +18,12 @@ const ProductCard = ({ product }) => {
       <div className="mt-2 text-sm sm:text-base">
         <h3 className="font-semibold text-yellow-600">{product.name}</h3>
 
-        <div className="flex flex-col sm:flex-row sm:justify-between">
+        <div className="flex justify-between">
           <p className="text-gray-400 mt-2">₦{product.price}</p>
 
           <Link
             href={`/product/${product.id}`}
-            className="border border-yellow-500 text-xs px-1.5 py-1 w-24 rounded-lg hover:bg-yellow-300 transition mt-2"
+            className="border border-yellow-500 text-xs px-1 py-1 w-24 rounded-lg hover:bg-yellow-300 transition text-center "
           >
             View Options
           </Link>
