@@ -21,7 +21,7 @@ const Hero = () => {
 
           <p className="pl-1">
             Wear outfits that speak{" "}
-            <span className="text-yellow-500">tradition</span>
+            <span className="text-yellow-500">tradition </span>
             and shine with <span className="text-yellow-500">confidence.</span>
           </p>
           <p className="pl-1 hidden sm:block">

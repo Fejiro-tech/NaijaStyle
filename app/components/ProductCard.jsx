@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
             fill
             src={product.image}
             alt={product.name}
-            className="object-cover rounded-xl"
+            className="object-cover rounded-xl transition-transform hover:scale-105"
           />
         </div>
       </Link>

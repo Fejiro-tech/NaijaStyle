@@ -514,7 +514,7 @@ export const products = [
   {
     id: "47",
     name: "Wine Auto-Gele",
-    price: 250000,
+    price: 25000,
     image: image48,
     description: "A rich wine-colored auto-gele designed to fit securely and beautifully.",
     sizes: ["S", "M", "L"],
