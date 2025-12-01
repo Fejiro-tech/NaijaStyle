@@ -24,7 +24,7 @@ const FeaturedCollection = () => {
             className="rounded-xl overflow-hidden shadow-lg cursor-pointer hover:opacity-90 transition"
           >
             
-            <div className="relative w-full aspect-[3/5]">
+            <div className="relative w-full aspect-3/5">
               <Image
                 src={item.image}
                 alt={item.title}

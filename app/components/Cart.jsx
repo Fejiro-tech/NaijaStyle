@@ -3,6 +3,7 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { useCart } from "../../app/context/CartContext"
+import { formattedPrice } from "./ProductDetail"
 
 const Cart = () => {
 
@@ -58,7 +59,7 @@ const Cart = () => {
               <div>
                 <p className="font-semibold text-sm">{item.name}</p>
                 <p className="font-semibold text-sm text-yellow-500">{item.size}</p>
-                <p className="text-gray-500 text-sm">$ {item.price.toLocaleString()}</p>
+                <p className="text-gray-500 text-sm">{formattedPrice(item.price)}</p>
               </div>
             </div>
             
@@ -84,7 +85,7 @@ const Cart = () => {
 
       <div className="flex justify-between items-center mb-6">
         <p className="text-gray-500 uppercase text-sm">Total</p>
-        <p className="text-lg font-bold">$ {total.toLocaleString()} </p>
+        <p className="text-lg font-bold">{formattedPrice(total)}</p>
       </div>
 
       <Link href="/checkout">
