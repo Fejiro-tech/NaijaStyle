@@ -19,18 +19,18 @@ const Hero = () => {
             Step Into Elegance, Naija Style
           </h1>
 
-          <p className="pl-1">
+          <p>
             Wear outfits that speak{" "}
             <span className="text-yellow-500">tradition </span>
             and shine with <span className="text-yellow-500">confidence.</span>
           </p>
-          <p className="pl-1 hidden sm:block">
+          <p className="hidden sm:block">
             From rich Aso Oke and lace to vibrant Ankara and statement
             jewelries, every piece is crafted to honor culture — Yoruba, Igbo,
             Hausa — while keeping you stylish for every celebration.
           </p>
 
-          <p className="pl-1 mb-12">
+          <p className="mb-12">
             For weddings, owambes, naming, and big occasions — dress like
             royalty.
           </p>

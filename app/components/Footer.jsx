@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
 
@@ -43,9 +44,16 @@ export default function Footer() {
         <p className="text-gray-300 text-sm mt-1">📧 info@naijastyle.com</p>
 
         <div className="flex gap-4 mt-4">
-            <a href="#" className="hover:text-yellow-400 text-xl">🧵</a>
-            <a href="#" className="hover:text-yellow-400 text-xl">📸</a>
-            <a href="#" className="hover:text-yellow-400 text-xl">📱</a>
+            <Link href="#">
+                <Image src="/images/whatsapp.png" width={20} height={20} alt="whatsapp"/>
+            </Link>
+            <Link href="#">
+                <Image src="/images/instagram.png" width={20} height={20} alt="instagram"/>
+            </Link>
+            <Link href="#">
+                <Image src="/images/icon-twitter.svg" width={20} height={20} alt="twitter"/>
+            </Link>
+            
         </div>
         </div>
 
